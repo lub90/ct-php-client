@@ -951,7 +951,7 @@ class GeneralApi
      * @throws \InvalidArgumentException
      * @return \ChurchTools\Model\GetConfig200Response|string
      */
-    public function getConfig($extended = null, string $contentType = self::contentTypes['getConfig'][0])
+    public function getCtConfig($extended = null, string $contentType = self::contentTypes['getConfig'][0])
     {
         list($response) = $this->getConfigWithHttpInfo($extended, $contentType);
         return $response;
@@ -2021,6 +2021,11 @@ class GeneralApi
             }
         }
 
+        // this endpoint requires API key authentication
+        $apiKey = $this->config->getApiKeyWithPrefix('Authorization');
+        if ($apiKey !== null) {
+            $headers['Authorization'] = $apiKey;
+        }
 
         $defaultHeaders = [];
         if ($this->config->getUserAgent()) {
