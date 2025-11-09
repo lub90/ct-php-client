@@ -1,0 +1,47 @@
+# # GetPermissionsInternalGroups200ResponseDataChurchdb
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**add_person** | **bool** |  | [optional]
+**admin_automatic_emails** | **bool** |  | [optional]
+**admin_followup** | **bool** |  | [optional]
+**admin_group_chat** | **bool** |  | [optional]
+**admin_group_fields** | **bool** |  | [optional]
+**admin_group_member_fields** | **bool** |  | [optional]
+**admin_meetings** | **bool** |  | [optional]
+**admin_posts** | **bool** |  | [optional]
+**admin_routines** | **bool** |  | [optional]
+**create_group** | **bool** |  | [optional]
+**create_notes** | **bool** |  | [optional]
+**create_post_group_intern** | **bool** |  | [optional]
+**create_post_group_visible** | **bool** |  | [optional]
+**do_followup** | **bool** |  | [optional]
+**do_group_meeting** | **bool** |  | [optional]
+**edit_basic_group_memberships** | **bool** |  | [optional]
+**edit_group_basic_settings** | **bool** |  | [optional]
+**edit_group_hierarchy** | **bool** |  | [optional]
+**edit_group_infos** | **bool** |  | [optional]
+**edit_group_member_fields** | **float** |  | [optional]
+**edit_group_memberships** | **bool** |  | [optional]
+**edit_own_group_member_fields** | **float** |  | [optional]
+**edit_own_groupmemberfields** | **bool** |  | [optional]
+**edit_person_fields_of_group_members** | **float** |  | [optional]
+**edit_persons** | **bool** |  | [optional]
+**export_group_members** | **bool** |  | [optional]
+**get_emails** | **bool** |  | [optional]
+**invite_person** | **bool** |  | [optional]
+**mail_group_members** | **bool** |  | [optional]
+**remove_from_group** | **bool** |  | [optional]
+**see_group** | **float** |  | [optional]
+**see_group_member_fields** | **float** |  | [optional]
+**see_group_tags** | **bool** |  | [optional]
+**see_groupmemberfields** | **float** |  | [optional]
+**see_hidden_group** | **bool** |  | [optional]
+**see_own_group_member_fields** | **float** |  | [optional]
+**see_persons** | **float** |  | [optional]
+**see_tags** | **bool** |  | [optional]
+**view_history** | **bool** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

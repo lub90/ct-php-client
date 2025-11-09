@@ -1,0 +1,10 @@
+# # GetAllAccountingPeriods200ResponseDataInnerAllOfPermissions
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**can_use_expert_mode** | **bool** | Flag if current user can make changes in this accounting periods, like filing new transactions and expert mode is enabled. |
+**edit_accounting_period** | **bool** | Flag if current user can edit this accounting period, like changing the name. |
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

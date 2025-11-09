@@ -1,0 +1,11 @@
+# # WidgetDetailRowTopLine
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**color** | [**\ChurchTools\Model\Color3**](Color3.md) |  |
+**infos** | **string[]** |  |
+**type** | **string** |  |
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
